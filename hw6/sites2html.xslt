@@ -7,7 +7,7 @@
 	</head>
 	<body>
 		<ol>
-		<xsl:for-each select="sites/site">
+		<xsl:for-each select="siteList/site">
 			<li>
 				<xsl:value-of select="@name"/>	
 				<xsl:text>, </xsl:text>
